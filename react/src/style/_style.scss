@@ -85,7 +85,10 @@ $anchor-height: 50px;
   }
 
   .scaptcha-card-container {
-    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
     padding: $card-padding $card-padding 0px $card-padding;
     min-width: $width + 2 * $card-padding;
     min-height: $height + 66px;
